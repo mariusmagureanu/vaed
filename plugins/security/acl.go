@@ -1,0 +1,25 @@
+package security
+
+import (
+	"vaed/response"
+)
+
+type AclPlugin struct {
+
+}
+
+func (AclPlugin) FilterBody() {
+
+}
+
+func (AclPlugin) FilterHeaders() {
+
+}
+
+func (AclPlugin) Log() {
+
+}
+
+func (AclPlugin) Run(out *response.Out) {
+	out.Headers["X-Acl"] = "1000"
+}
