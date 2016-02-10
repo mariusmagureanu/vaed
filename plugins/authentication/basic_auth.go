@@ -1,7 +1,7 @@
 package authentication
 
 import (
-	"vaed/response"
+	"github.com/mariusmagureanu/vaed/response"
 )
 
 type BasicAuthPlugin struct {

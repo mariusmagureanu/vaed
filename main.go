@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"golang.org/x/net/websocket"
 	"net/http"
-	"vaed/plugins"
-	"vaed/response"
+	"github.com/mariusmagureanu/vaed/plugins"
+	"github.com/mariusmagureanu/vaed/response"
 )
 
 func socketHandler(ws *websocket.Conn) {

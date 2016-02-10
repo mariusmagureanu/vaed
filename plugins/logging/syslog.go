@@ -1,7 +1,7 @@
 package logging
 
 import (
-	"vaed/response"
+	"github.com/mariusmagureanu/vaed/response"
 )
 
 type SysLogPlugin struct {

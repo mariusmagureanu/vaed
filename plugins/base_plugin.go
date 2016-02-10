@@ -3,12 +3,12 @@ package plugins
 import (
 	"errors"
 	"fmt"
-	"vaed/plugins/authentication"
-	"vaed/plugins/logging"
-	"vaed/plugins/metrics"
-	"vaed/plugins/security"
-	"vaed/plugins/throttle"
-	"vaed/response"
+	"github.com/mariusmagureanu/vaed/plugins/authentication"
+	"github.com/mariusmagureanu/vaed/plugins/logging"
+	"github.com/mariusmagureanu/vaed/plugins/metrics"
+	"github.com/mariusmagureanu/vaed/plugins/security"
+	"github.com/mariusmagureanu/vaed/plugins/throttle"
+	"github.com/mariusmagureanu/vaed/response"
 )
 
 func init() {

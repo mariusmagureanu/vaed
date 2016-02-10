@@ -2,11 +2,11 @@ package plugins
 
 import (
 	"testing"
-	"vaed/plugins/authentication"
-	"vaed/plugins/logging"
-	"vaed/plugins/metrics"
-	"vaed/plugins/security"
-	"vaed/plugins/throttle"
+	"github.com/mariusmagureanu/vaed/plugins/authentication"
+	"github.com/mariusmagureanu/vaed/plugins/logging"
+	"github.com/mariusmagureanu/vaed/plugins/metrics"
+	"github.com/mariusmagureanu/vaed/plugins/security"
+	"github.com/mariusmagureanu/vaed/plugins/throttle"
 )
 
 func TestRegisterBasicAuth(t *testing.T) {

@@ -1,7 +1,7 @@
 package security
 
 import (
-	"vaed/response"
+	"github.com/mariusmagureanu/vaed/response"
 )
 
 type AclPlugin struct {

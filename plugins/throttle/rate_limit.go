@@ -1,7 +1,7 @@
 package throttle
 
 import (
-	"vaed/response"
+	"github.com/mariusmagureanu/vaed/response"
 )
 
 type RateLimitPlugin struct {
